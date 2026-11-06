@@ -1,11 +1,11 @@
 import { renderDashboard } from './pages/dashboard.js';
 import { renderBooksPage } from './pages/books.js';
-//import { renderCategoriesPage } from './pages/categories.js';
+import { renderCategoriesPage } from './pages/categories.js';
 
 const routes = {
     dashboard: renderDashboard,
     books: renderBooksPage,
-    //categories: renderCategoriesPage,
+    categories: renderCategoriesPage,
 };
 
 async function router() {
